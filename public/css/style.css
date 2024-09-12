@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: #f5f4f4;
+}
+.fa-person-hiking {
+  font-size: 2rem;
+  color: #49b8c7;
+}
+.nav-link {
+  color: #0c0c0c !important;
+}
+
+.d-flex {
+  box-sizing: border-box;
+  padding: 0;
+}
+.f-info {
+  background-color: #f5f4f4;
+}
+.f-info-rules,
+.f-info-name,
+.f-info-socials {
+  width: 100%;
+  font-size: 1.2rem;
+}
+.f-info-socials i {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.f-info {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.f-info-rules a {
+  text-decoration: none;
+  color: black !important;
+  margin-right: 1.3rem;
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+.card {
+  border: none !important;
+  margin-bottom: 1.5rem;
+}
+.card-img-top {
+  border-radius: 0.9rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+.card-body {
+  padding: 0 !important;
+}
+.listing-link {
+  text-decoration: none;
+}
+.card-text {
+  color: black !important;
+}
+.card-img-overlay {
+  color: #151616;
+  opacity: 0.2;
+  &:hover {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+  }
+}
+.img-button {
+  border: none;
+  background-color: #49b8c7;
+  border-radius: 4px;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1.2;
+  }
+}
